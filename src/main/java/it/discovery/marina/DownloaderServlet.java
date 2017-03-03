@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(name="/get/*")
+@WebServlet("/get/*")
 public class DownloaderServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private static final String PATH_ON_DRIVE = "C:\\base";

@@ -4,12 +4,4 @@
 	version="3.1">
 
 	<display-name>Archetype Created Web Application</display-name>
-	<servlet>
-		<servlet-name>DownloaderServlet</servlet-name>
-		<servlet-class>it.discovery.marina.DownloaderServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>DownloaderServlet</servlet-name>
-		<url-pattern>/get/*</url-pattern>
-	</servlet-mapping>
 </web-app>
